@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-
+    protected $fillable = ['name','details','stock','price','discount'];
     /**
     * Get all reviews for product.
     * @version 1.0 
